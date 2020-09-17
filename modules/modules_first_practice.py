@@ -1,5 +1,5 @@
 from tkinter import *
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk, ImageDraw
 
 
 def show_pick():
@@ -31,5 +31,3 @@ def question_window():
     window.mainloop()
 
 
-if __name__ == '__main__':
-    question_window()
